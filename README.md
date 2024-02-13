@@ -4,10 +4,10 @@
 
 *Loki*
 ```sh
-http://192.168.1.100:3100
+http://<localIP>:3100
 ```
 
 *Prometheus*
 ```sh
-http://192.168.1.100:9090
+http://<localIP>:9090
 ```
