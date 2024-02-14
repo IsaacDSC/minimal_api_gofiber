@@ -2,12 +2,26 @@
 
 # Instructions
 
-*Loki*
+
+*Running with docker*
+```sh
+docker-compose up -d
+```
+
+*Access Grafana*
+```
+http://localhost:3000
+
+username: admin
+password: admin
+```
+
+*Configure plugin Loki*
 ```sh
 http://<localIP>:3100
 ```
 
-*Prometheus*
+*configure plugin Prometheus*
 ```sh
 http://<localIP>:9090
 ```
